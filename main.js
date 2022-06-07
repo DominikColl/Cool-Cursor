@@ -19,21 +19,6 @@ var cursor = {
         this.animateDotOutline();
     },
     
-//     updateCursor: function(e) {
-//         var self = this;
-        
-//         console.log(e)
-        
-//         // Show the cursor
-//         self.cursorVisible = true;
-//         self.toggleCursorVisibility();
-
-//         // Position the dot
-//         self.endX = e.pageX;
-//         self.endY = e.pageY;
-//         self.$dot.style.top = self.endY + 'px';
-//         self.$dot.style.left = self.endX + 'px';
-//     },
     
     setupEventListeners: function() {
         var self = this;
@@ -105,7 +90,7 @@ var cursor = {
         
         if (self.cursorEnlarged) {
             self.$dot.style.transform = 'translate(-50%, -50%) scale(0.75)';
-            self.$outline.style.transform = 'translate(-50%, -50%) scale(1.5)';
+            self.$outline.style.transform = 'translate(-50%, -50%) scale(2.5)';
         } else {
             self.$dot.style.transform = 'translate(-50%, -50%) scale(1)';
             self.$outline.style.transform = 'translate(-50%, -50%) scale(1)';
@@ -116,8 +101,8 @@ var cursor = {
         var self = this;
         
         if (self.cursorVisible) {
-            self.$dot.style.opacity = 1;
-            self.$outline.style.opacity = 1;
+            self.$dot.style.opacity = 2;
+            self.$outline.style.opacity = 2;
         } else {
             self.$dot.style.opacity = 0;
             self.$outline.style.opacity = 0;
