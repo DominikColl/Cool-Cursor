@@ -6,6 +6,7 @@
 	 font-family: 'Open Sans', Helvetica, arial, sans-serif;
 	 color: #dc5656;
 	 background-color: #333;
+	 color:white;
 }
  h1, h2, h3, h4, h5, h6 {
 	 font-family: 'Raleway', 'Open Sans', sans-serif;
@@ -14,6 +15,9 @@
  a {
 	 color: white;
 	 text-decoration: none;
+}
+h1{
+	border:2px solid green;
 }
  img {
 	 max-width: 100%;
@@ -63,7 +67,7 @@
  .col.col--full {
 	 width: 100%;
 }
- html, body, html *, body * {
+ html, body{
 	 cursor: none;
 	 height:99%;
 }
@@ -87,4 +91,16 @@
 	 height: 40px;
 	 background-color: rgba(229, 128, 128, 0.5);
 }
+/* more custom css */
+p{
+	position: absolute; 
+ z-index:1;
+} 
+canvas{
+	border:2px solid green;
+	width:100%;
+	position: absolute;
+	z-index: 1;
+}
+
  
