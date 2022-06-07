@@ -65,6 +65,7 @@
 }
  html, body, html *, body * {
 	 cursor: none;
+	 height:99%;
 }
  .cursor-dot, .cursor-dot-outline {
 	 pointer-events: none;
